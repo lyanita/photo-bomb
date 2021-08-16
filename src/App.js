@@ -145,7 +145,7 @@ class App extends Component {
         <br></br>
         <p>{this.state.errormessage}</p>
         <br></br>
-        <Mui.Button variant="contained" type='submit' disabled={loading}>Submit</Mui.Button>
+        <Mui.Button variant="contained" type='submit'>Submit</Mui.Button>
         <br></br>
         <br></br>
         {loading && <Mui.CircularProgress />}
