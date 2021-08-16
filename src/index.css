@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Form {
+  margin: 3vw 20vw;
+}
+
+.Results {
+  margin: 3vw 12vw;
+}
