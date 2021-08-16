@@ -27,6 +27,7 @@
     "react-image-gallery": "^1.2.7",
     "react-scripts": "4.0.3",
     "react-tag-input": "^6.7.3",
+    "request": "^2.88.2",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
