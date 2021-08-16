@@ -33,7 +33,7 @@ app.listen(port);
 
 /*Functions*/
 function search(tag, number) {
-    // Use photo search function from Flickr API
+    //Use photo search function from Flickr API
     var result = flickr.photos.search({
         tags: tag,
         per_page: number
@@ -50,12 +50,12 @@ function search(tag, number) {
 
 /*API*/
 app.get('/search', function(req, res, next) {
-    var tag = req.query.tag;
-    var number = req.query.number;
+    var tag = req.query.tag; //Tags to search by
+    var number = req.query.number; //Number of results to return
     var photos = new Promise (function (resolve, reject) {
-        var test = search(tag, number);
-        console.log(test);
-        resolve(search(tag, number));
+        var search = search(tag, number);
+        console.log(search);
+        resolve(search);
     });
     photos.then(function(result) {
         console.log(result);
