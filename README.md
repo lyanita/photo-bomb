@@ -1,6 +1,6 @@
 # PhotoBomb App
 
-PhotoBomb contains client- and server-side development that makes an API call to Flickr's API via the Flickr SDK. It render the public image results to the user via an image carousel.
+PhotoBomb contains client- and server-side development that makes an API call to Flickr's API via the Flickr SDK. It renders the public image results to the user via an image carousel.
 
 ## Technologies
 
@@ -8,7 +8,7 @@ PhotoBomb contains client- and server-side development that makes an API call to
 - JavaScript
 - Material UI
 - HTML, CSS
-- Node.js
+- Node.js, Express
 - Hosted via Heroku and Netlify
 
 ## Installation
