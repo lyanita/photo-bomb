@@ -33,6 +33,7 @@ app.listen(port);
 
 /*Functions*/
 function search(tag, number) {
+    // Use photo search function from Flickr API
     var result = flickr.photos.search({
         tags: tag,
         per_page: number
