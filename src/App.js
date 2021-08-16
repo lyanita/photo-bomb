@@ -66,7 +66,7 @@ class App extends Component {
       tag += path;
     });
     console.log(tag);
-    var call = axios.get("http://localhost:5000/search?tag=" + tag + "&number=" + number)
+    var call = axios.get("https://photo-bomb-app.herokuapp.com/search?tag=" + tag + "&number=" + number)
     .then(response => {
       console.log(response);
       console.log(response.status);
