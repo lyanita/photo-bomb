@@ -53,9 +53,9 @@ app.get('/search', function(req, res, next) {
     var tag = req.query.tag; //Tags to search by
     var number = req.query.number; //Number of results to return
     var photos = new Promise (function (resolve, reject) {
-        var search = search(tag, number);
-        console.log(search);
-        resolve(search);
+        var images = search(tag, number);
+        console.log(images);
+        resolve(search(tag, number));
     });
     photos.then(function(result) {
         console.log(result);
